@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/sidebar.css">
+    <link rel="stylesheet" href="./src/styles/main-header.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <title>Tiamat</title>
+    <script src="https://kit.fontawesome.com/d7273a6c7a.js" crossorigin="anonymous"></script>
+    </svg>
+</head>
+<body>
+    
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <nav class="sidebar__nav">
+            <div class="logo">
+                <img src="./src/assets/logo.png" alt="">
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="fa-regular fa-user"></span>
+                            <span>Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="bi bi-grid"></span>
+                            <span>Genres</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="bi bi-list"></span>
+                            <span>My list</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="bi bi-heart"></span>
+                            <span>Favorites</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="bi bi-gear"></span>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- HEADER / MAIN -->
+    <main>
+        <div class="main-container">
+            <nav class="header-nav">
+                <div class="header-search">
+                    <button>
+                        <input id="search-input" type="text" maxlength="600" placeholder="Search...">
+                        <span class="bi bi-search"></span>
+                    </button>
+                </div>
+                <div class="header-login">
+                    <button class="sign-up">Sign Up</button>
+                    <button class="sign-in">Sign In</button>
+                </div>
+            </nav>
+        </div>
+    </main>
+
+</body>
+</html>

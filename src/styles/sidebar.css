@@ -1,0 +1,24 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: rgb(14, 14, 14);
+}
+
+.sidebar {
+    padding: 15px;
+    background-color: #121212;
+    width: 15vw;
+    height: 100vw;
+}
+
+.sidebar .logo img {
+    width: 15vw;
+}
+
+.sidebar ul li {
+    padding: 20px;
+}
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
