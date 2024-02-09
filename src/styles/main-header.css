@@ -1,4 +1,81 @@
 
-/* .main-container {
+.main-container {
+    max-width: 100vw;
+    height: 100vw;
+    /* margin-left: 15%; */
+    background-color: rgb(14, 14, 14);
+    width: 100%;
+    height: 100%;
+    margin-top: 6vw;
+    margin-left: 290px;
+    position: fixed;
+    top: 0;
+}
 
-} */
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #121212;
+    margin-left: 285px;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    top: 0;
+    border-left: 3px solid rgb(14, 14, 14);
+}
+
+.header-search {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header-search button {
+    background-color: rgb(14, 14, 14);
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 15px;
+    height: 45px;
+
+}
+
+.header-search input {
+    background: transparent;
+    border: none;
+    padding: 0px 250px 0 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+::placeholder {
+    color: white;
+}
+
+.header-search span {
+    color: white;
+}
+
+.header-login .sign-up {
+    margin-left: 38vw;
+    background-color: rgb(14, 14, 14);
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    font-size: 17px;
+    /* font-weight: bold; */
+    cursor: pointer;
+}
+
+.header-login .sign-in {
+    background-color: #4f0768;
+    font-size: 17px;
+    color: white;
+    /* font-weight: bold; */
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+}
